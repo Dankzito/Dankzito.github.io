@@ -1,25 +1,45 @@
 body{
-    background: url(lda3.jpg) no-repeat center center fixed;
+    background: url(fondopaladarnegro.jpg) no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
 }
-.centrado {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.685);
-    border: 3px solid rgba(252, 74, 4, 0.829);
+
+h1 {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 300px;
-    margin-right: 300px;
+    background-color: rgba(0, 0, 0, 0.548);
+    border-radius: 10px;
+    border-style: outset;
+
 }
-div {
+a {
+    color: rgb(255, 0, 0);
+}
+.Plantel {
+    width: 1250px;
+}
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
-.titulo{
-    color: white;
+
+li {
+    float: left;
+}
+li a{
+    display: block;
+    padding: 14px 50px;
     text-align: center;
-}
-a{
-    margin-left: 600px;
-    color: rgb(0, 78, 247);
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.87);
+    margin-top: left 300px;
 }
